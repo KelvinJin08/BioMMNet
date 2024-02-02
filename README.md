@@ -39,7 +39,7 @@ BioMMNet/
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an sample example guides you on how to run project scripts locally by the following simple example steps.
+This is an example guides you on how to run project scripts locally by the following simple example steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
