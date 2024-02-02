@@ -36,3 +36,25 @@ BioMMNet/
 ├── setup.py                        # Installation script for the project setup
 └── README.md                       # Project README file with documentation
 ```
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an sample example guides you on how to run project scripts locally by the following simple example steps.
+
+<!-- USAGE EXAMPLES -->
+## Usage
+First, you need to download the checkpoint for [progen2-small](https://github.com/salesforce/progen/tree/main/progen2).
+Or run the follwing code.
+  ```sh 
+  # checkpoint
+  model=progen2-small
+  wget -P checkpoints/${model} https://storage.googleapis.com/sfr-progen-research/checkpoints/${model}.tar.gz
+  tar -xvf checkpoints/${model}/${model}.tar.gz -C checkpoints/${model}/
+  ```
+
+
+Then, you can run the bio_sequence_cli script. Simply input what you want the multimodal model to do. 
+For example, "Please generate a protein sequence with length 64, and please set the temperature as 0.7."
+  ```sh 
+  python bio_sequence_cli.py "Please generate a protein sequence with length 256, and please set the temperature as 0.7." 
+  ```
