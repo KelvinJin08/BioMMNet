@@ -53,7 +53,10 @@ Or run the follwing code.
   ```
 
 
-Then, you can run the bio_sequence_cli script. Simply input what you want the multimodal model to do. 
+Then, you can run the bio_sequence_cli script. 
+
+Simply input what you want the multimodal model to do. 
+
 For example, "Please generate a protein sequence with length 64, and please set the temperature as 0.7."
   ```sh 
   python bio_sequence_cli.py "Please generate a protein sequence with length 256, and please set the temperature as 0.7." 
