@@ -59,5 +59,5 @@ Simply input what you want the multimodal model to do.
 
 For example, "Please generate a protein sequence with length 64, and please set the temperature as 0.7."
   ```sh 
-  python bio_sequence_cli.py "Please generate a protein sequence with length 256, and please set the temperature as 0.7." 
+  python bio_sequence_cli.py "Please generate a protein sequence with length 64, and please set the temperature as 0.7." 
   ```
