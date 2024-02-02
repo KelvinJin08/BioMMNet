@@ -1,5 +1,5 @@
 # BioMMNet
-A Multimodal Network for Biological Data Analysis
+A Multimodal Network for Biological Data Analysis and Generation
 ```sh
 BioMMNet/
 │
